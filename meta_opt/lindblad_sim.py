@@ -6,11 +6,11 @@ from pytket.circuit import CircBox, Circuit, Qubit
 from pytket.pauli import Pauli, QubitPauliString
 from pytket.utils import QubitPauliOperator
 
-from hlsim.hamiltonian_sim import (
+from meta_opt.hamiltonian_sim import (
     get_hamiltonian_simulation_circbox,
     get_xxz_chain_hamiltonian,
 )
-from hlsim.utils import get_pauli_exp_box_from_QubitPauliString
+from meta_opt.utils import get_pauli_exp_box_from_QubitPauliString
 
 
 def get_second_order_dilation_trotter_step_from_QubitPauliOperator(

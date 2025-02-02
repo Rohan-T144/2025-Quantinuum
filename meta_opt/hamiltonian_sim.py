@@ -8,7 +8,7 @@ from pytket.pauli import Pauli, QubitPauliString
 from pytket.utils import QubitPauliOperator, gen_term_sequence_circuit
 from scipy.linalg import expm
 
-from hlsim.utils import get_pauli_exp_box_from_QubitPauliString
+from utils import get_pauli_exp_box_from_QubitPauliString
 
 
 def get_xxz_chain_hamiltonian(n_qubits: int, Delta_ZZ: float) -> QubitPauliOperator:
