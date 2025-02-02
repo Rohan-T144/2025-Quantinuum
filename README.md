@@ -33,7 +33,6 @@ Our main innovation is an automated optimization system that:
 - Uses a weighted scoring system to balance competing objectives
 - Provides visualization of the optimization landscape
 
-
 ### 4. Circuit Analysis Tools
 
 We implemented comprehensive circuit analysis utilities that provide:
