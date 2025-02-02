@@ -1,4 +1,5 @@
 # Quantinuum Challenge
+Team: Collapse Now, Fix Later
 
 Our team's submission for the Quantinuum Challenge at iQuHACK 2025, focused on simulating Hamiltonian and Lindbladian quantum systems.
 
