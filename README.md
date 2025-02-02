@@ -25,7 +25,7 @@ This project implements advanced optimization techniques for quantum system simu
 - Deterministic and stochastic simulation approaches
 - XXZ Lindblad simulation with configurable parameters
 
-### 3. Auto-Optimization Algorithm (`trotter_sim.py`)
+### 3. Auto-Optimization Algorithm (`meta_opt/trotter_sim.py`)
 
 Our main innovation is an automated optimization system that:
 - Finds optimal number of Trotter steps considering both accuracy and circuit complexity based on depth and gate counts
