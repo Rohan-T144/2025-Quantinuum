@@ -28,3 +28,4 @@ def get_pauli_exp_box_from_QubitPauliString(
         paulis=pauli_list, t=coefficient * (2 / np.pi) * Delta_t
     )
     return pauli_exp_box
+
